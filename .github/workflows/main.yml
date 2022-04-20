@@ -13,5 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: git push
-        run: git push origin
+      - name: Git  
+      - run: |
+        git add .
+        git commit
+        git push origin master
