@@ -16,5 +16,5 @@ jobs:
       - name: Git  
       - run: |
         git add .
-        git commit
+        git commit -m "Today's News Update"
         git push origin master
